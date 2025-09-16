@@ -3,23 +3,23 @@
 starjout/Starjout.ttf*/
 @font-face {
   font-family: Starjedi;
-  src: url(/font/Starjedi.ttf);
+  src: url(/desafio10/font/Starjedi.ttf);
 }
 @font-face {
   font-family: Starjhol;
-  src: url(/font/Starjhol.ttf);
+  src: url(/desafio10/font/Starjhol.ttf);
 }
 @font-face {
   font-family: Starjout;
-  src: url(/font/Starjout.ttf);
+  src: url(/desafio10/font/Starjout.ttf);
 }
 @font-face {
   font-family: STJEDISE;
-  src: url(/font/STJEDISE.TTF);
+  src: url(/desafio10/font/STJEDISE.TTF);
 }
 @font-face {
   font-family: Strjmono;
-  src: url(/font/Strjmono.ttf);
+  src: url(/desafio10/font/Strjmono.ttf);
 }
 :root {
   --cor1: #1b1c21;
@@ -41,7 +41,7 @@ starjout/Starjout.ttf*/
 }
 /*Comandos do corpo*/
 body {
-  background-image: url(/img/espaço-de-fundo.png);
+  background-image: url(/desafio10/img/espaço-de-fundo.png);
   color: white;
   font-family: var(--fonte-padrao);
 }
