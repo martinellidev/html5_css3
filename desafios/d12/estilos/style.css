@@ -75,12 +75,12 @@ section.imagem > p {
   text-shadow: 1px 1px 0px black;
 }
 section#img01 {
-  background-image: url('/d12/imagens/background001.jpg');
+  background-image: url('/imagens/background001.jpg');
   background-position: right center;
   
 }
 section#img02 {
-  background-image: url('/d12/imagens/background002.jpg');
+  background-image: url('/imagens/background002.jpg');
  
 }
 footer {
@@ -90,5 +90,5 @@ footer {
   padding: 10px;
 }
 .footer {
-  font-size: 0.5em;
+  font-size: 0.2em;
 }
