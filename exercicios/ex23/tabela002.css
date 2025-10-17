@@ -1,5 +1,9 @@
 body {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("tabela002_img/fundoBrasil.jpg");
+  background-attachment: fixed;
+  background-position: center top;
+  background-size: cover;
 }
 h1 {
   text-align: center;
@@ -15,8 +19,36 @@ td.number {
 }
 td,
 th {
+  background-color: rgba(255, 255, 255, 0.537);
+}
+td,
+th {
   border: 1px solid black;
+  padding: 5px;
 }
 img {
   width: 30px;
+}
+thead {
+  background-color: rgba(0, 0, 0, 0.742);
+  color: white;
+}
+tfoot {
+  text-align: center;
+}
+caption {
+  font-size: 1.5em;
+  font-weight: 700;
+  background-image: linear-gradient(to right, green, yellow, blue);
+  padding: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgba(0, 0, 0, 0.718);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.verde {
+  background-color: rgba(0, 128, 0, 0.715);
+}
+.amarelo {
+  background-color: rgba(255, 255, 0, 0.748);
 }
