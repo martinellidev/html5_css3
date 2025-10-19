@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  margin: 0px;
+}
+.item {
+  background-color: #f7f7f7;
+  border: 1px solid #e7e7e7;
+  padding: 20px;
+  border-radius: 4px;
+}
+.comprar {
+  text-decoration: none;
+  background-color: #a8f;
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: #103;
+}
+.grid {
+  /* Por padrão o grid só tem uma coluna */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* Não utilizar % como unidade de medida no grid, opte por 1fr, pois o Fr distribui uniformimente */
+  gap: 20px;
+}

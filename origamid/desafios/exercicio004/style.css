@@ -1,0 +1,11 @@
+/* Com este display vai passar a receber propriedades de padding e margin */
+span {
+  display: inline-block;
+  background-color: #ddd;
+}
+span {
+  padding: 60px 30px;
+  margin: 50px 0px 0px 500px;
+  border: solid black;
+  border-width: 10px 1px;
+}

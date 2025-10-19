@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #b2b2b2;
+  margin: 50px;
+}
+.titulo {
+  text-align: center;
+}
+/* Caixas */
+div {
+  background-color: #111;
+  border-radius: 4px;
+  color: white;
+  padding: 30px;
+  margin: 40px;
+}
+/* Preços e datas e quilometragem */
+span {
+  color: #febe01;
+  font-weight: 700;
+}
+p {
+  color: #b2b2b2;
+}
+a {
+  text-decoration: none;
+  background-color: #febe01;
+  border-radius: inherit;
+  padding: 10px;
+  display: inline-block;
+  margin-top: 10px;
+  color: #332200;
+}

@@ -1,0 +1,10 @@
+img {
+  max-width: 100%;
+  display: block;
+}
+.pequena {
+  width: 100px;
+}
+.media {
+  width: 600px;
+}
